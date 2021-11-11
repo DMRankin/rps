@@ -10,7 +10,8 @@ def player_choice():
     return choice
 
 def create_player(name, choice): 
-    pass 
+    new_player = Player(name, choice)
+    return new_player 
 
 def create_computer_player():
     pass
@@ -18,6 +19,4 @@ def create_computer_player():
 def get_winner(player, computer): 
     pass 
 
-chosen_move = player_choice()
-print("you choose " + chosen_move)
 
